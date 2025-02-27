@@ -16,7 +16,31 @@
 
     <hr size="4" color="red">
 
-    <h1>This is About Page</h1>
+    <table align="center" width="500" bgcolor="yellow" bo>
+
+        <tr>
+            <th>RollNo</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Fees</th>
+        </tr>
+
+        <% 
+           Mydata.forEach((key)=>{
+        %>
+
+        <tr>
+            <td><%= key.rollno %></td>
+            <td><%= key.name %></td>
+             <td><%= key.city %></td>
+              <td><%= key.fees %></td>
+        </tr>
+
+        <%
+        })
+        %>
+
+    </table>
     
 </body>
 </html>

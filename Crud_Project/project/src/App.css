@@ -1,0 +1,49 @@
+.admin{
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 25px !important;
+  font-weight: 600;
+}
+.side{
+  height: 100vh;
+  width: 240px;
+  background-color: rgba(229, 226, 226, 0.233);
+}
+
+.side nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  margin-left: 30px;
+  
+}
+
+.side nav ul li{
+  margin-top: 30px;
+  list-style: none;
+}
+
+.side nav ul li .linkstyle{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.linkstyle{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidecontent{
+  margin-right: 100px;
+}

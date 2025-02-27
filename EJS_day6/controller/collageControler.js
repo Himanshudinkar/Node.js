@@ -4,8 +4,12 @@ const homePage = (req,res) =>{
     res.render("index")
 }
 
-const aboutPage = (req,res) =>{
-    res.render("about")
+const aboutPage = async (req,res) =>{
+  
+
+    const Data = await collageModel.find();
+    res.render("about", {Mydata:Data})
+
 }
 const coursePage = (req,res) =>{
     res.render("course")

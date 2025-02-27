@@ -1,0 +1,128 @@
+
+.navtext{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.cover{
+    background-image: url("/public/cover.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.homecontent{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+.cover .homecontent h1{
+    width: 600px;
+   
+    
+}
+.cover .homecontent h1 span{
+    color: rgb(44, 117, 206);
+}
+
+.cover .homecontent p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.foot{
+   margin-bottom: 0px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: rgb(44, 117, 206);
+    padding: 20px;
+    color: white;
+}
+.drcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.drcontent p{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.drcontent h1{
+    font-size: 30px;
+}
+.drcard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards{
+    width: 500px;
+ 
+    background-color: aliceblue;
+}
+
+.cards h4{
+    font-size: 18px;
+    color: gray;
+}
+
+.cards span{
+    color: black;
+}
+
+.forms Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+  
+}
+
+.apoint{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/public/apoint.jpeg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    
+    color: white;
+}
+
+.apoint h1{
+    font-size: 30px;
+}
+.appform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.appform .form1{
+    width: 400px;
+}

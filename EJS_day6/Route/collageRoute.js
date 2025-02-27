@@ -2,6 +2,7 @@ const express = require("express");
 const route = express.Router();
 const collageControler = require("../controller/collageControler")
 
+
 route.get("/home", collageControler.homePage);
 route.get("/about", collageControler.aboutPage);
 route.get("/course", collageControler.coursePage);
